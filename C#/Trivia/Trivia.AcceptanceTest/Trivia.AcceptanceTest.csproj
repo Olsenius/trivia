@@ -52,6 +52,12 @@
   <ItemGroup>
     <Content Include="expected.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Trivia\Trivia.csproj">
+      <Project>{66364dd1-59f1-46b7-9869-d0fc3493dc80}</Project>
+      <Name>Trivia</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
