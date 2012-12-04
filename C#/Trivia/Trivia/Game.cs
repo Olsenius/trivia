@@ -107,7 +107,7 @@ namespace UglyTrivia
 
         }
 
-        private void askQuestion()
+        protected virtual void askQuestion()
         {
             if (currentCategory() == "Pop")
             {
